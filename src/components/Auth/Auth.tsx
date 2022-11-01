@@ -16,21 +16,22 @@ const Auth = () => {
               src="https://i.pinimg.com/236x/4d/a8/bb/4da8bb993057c69a85b9b6f2775c9df2.jpg"
               alt="profile"
             />
-            <h5>Login</h5>
+            <p>Login</p>
             {/* <input type="text" placeholder="Username" /> */}
             <input type="email" placeholder="Email" />
             <input type="password" placeholder="Password" />
-            <div className="auth__checkme">
+            <div className="auth__checkme ">
               <div className="auth__checkbox">
                 <label>
                   <input type="checkbox" checked /> Remember me
                 </label>
-              </div>
+              </div>    
               <div className="auth__forget">
                 <label>Forgot Password</label>
               </div>
             </div>
             <button className="auth__button">Sign In</button>
+
             <div className="auth__or">
               <hr />
               <span>or</span>

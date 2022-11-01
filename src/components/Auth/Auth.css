@@ -48,9 +48,13 @@
   position: relative;
 }
 
+.auth__form{
+ margin-bottom: 0% !important;
+}
+
 .auth__form > img {
-  margin: 20px 0 0px;
-  height: 70px;
+  margin: 10px 0 0px;
+  height: 50px;
   border-radius: 50%;
 }
 
@@ -127,15 +131,17 @@ input[type="checkbox"] {
 }
 
 .auth__checkme {
-  position: relative;
-  /* display: flex; */
-  /* justify-content: end; */
-  align-items: left;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: left; */
+  width: 73%;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
-/* .auth__checkbox {
+.auth__checkbox {
   width: 47%;
-} */
+}
 
 .auth__checkbox label {
   display: block;
@@ -151,7 +157,7 @@ input[type="checkbox"] {
   position: absolute;
   cursor: pointer;
   left: 0px;
-  top: 0px;
+  top: -2px;
 }
 
 .auth__forget {
@@ -163,20 +169,20 @@ input[type="checkbox"] {
 }
 
 .auth__or {
-    width: 250px;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    color: #757575;
-    margin-bottom: 4px;
-    margin-top: 10px;
-    font-size: 0.8rem;
-  }
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  color: #757575;
+  margin-bottom: 4px;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
 
 .auth__or hr {
-    width: 30%;
-    height: 0.1px;
-    background-color: #c4c4c4;
-    border: none;
-    align-self: center;
-  }
+  width: 30%;
+  height: 0.1px;
+  background-color: #c4c4c4;
+  border: none;
+  align-self: center;
+}
