@@ -7,7 +7,7 @@
 }
 
 .auth__container {
-  width: 106%;
+  width: 100%;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -48,6 +48,12 @@
   position: relative;
 }
 
+.auth__form > img {
+  margin: 20px 0 0px;
+  height: 70px;
+  border-radius: 50%;
+}
+
 input {
   margin-bottom: 10px;
 }
@@ -58,15 +64,33 @@ input[type="password"] {
   width: 212px;
   height: 32px;
   border: 1px solid #ccc;
-  color: #00717e;
+  color: #2d2d2d;
   font-weight: bold;
+  font-size: 12px;
   border-radius: 10px;
   padding-left: 10px;
 }
 
 input:focus {
-  color: black;
-  border: 1px solid #00717e;
+  color: #2d2d2d;
+  outline-color: #00717e;
+  outline-style: double;
+}
+
+.auth__checkme {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+span {
+  font-size: 12px;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  margin-top: px;
 }
 
 .auth__button {
@@ -95,3 +119,64 @@ input:focus {
   background-repeat: no-repeat;
   background-position: 12px 11px;
 }
+
+::placeholder {
+  color: #757575;
+  opacity: 0.5;
+  font-size: smaller;
+}
+
+.auth__checkme {
+  position: relative;
+  /* display: flex; */
+  /* justify-content: end; */
+  align-items: left;
+}
+
+/* .auth__checkbox {
+  width: 47%;
+} */
+
+.auth__checkbox label {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 9px;
+  font-weight: 500;
+}
+
+.auth__checkbox input {
+  position: absolute;
+  cursor: pointer;
+  left: 0px;
+  top: 0px;
+}
+
+.auth__forget {
+  display: block;
+  position: relative;
+  margin-bottom: 12px;
+  font-size: 9px;
+  font-weight: 500;
+}
+
+.auth__or {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: #757575;
+    margin-bottom: 4px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+  }
+
+.auth__or hr {
+    width: 30%;
+    height: 0.1px;
+    background-color: #c4c4c4;
+    border: none;
+    align-self: center;
+  }
