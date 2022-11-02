@@ -4,6 +4,7 @@
   box-sizing: border-box;
   height: 100vh;
   overflow: hidden;
+ 
 }
 
 .auth__container {
@@ -11,7 +12,10 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  background-color: #ffffff;
+  background-image: url("../../Assets/wave-haikei.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  
 }
 
 .auth__content {
