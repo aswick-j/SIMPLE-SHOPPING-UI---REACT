@@ -1,0 +1,14 @@
+.home__bgclr{
+    /* background-color: rgb(246, 246, 246);
+    height:30rem */
+}
+
+.home__img{
+    width: auto;
+    height: 35rem;
+}
+
+.home__caro{
+    display: flex;
+    justify-content: center;
+}
