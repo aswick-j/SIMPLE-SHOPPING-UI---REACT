@@ -1,26 +1,27 @@
-.home__bgclr{
-    /* background-color: rgb(246, 246, 246);
+.home__bgclr {
+  /* background-color: rgb(246, 246, 246);
     height:30rem */
 }
 
-.home__img{
-    width: auto;
-    height: 35rem;
+.home__img {
+  width: auto;
+  height: 35rem;
 }
 
-.home__caro{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+.home__caro {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
-.home__cate{
-    margin-left: 9rem;
-    margin-right: 9rem;
+.home__cate {
+  margin-left: 9rem;
+  margin-right: 9rem;
 }
 
-
-.three, .four, .five {
+.three,
+.four,
+.five {
   border: none;
   border-radius: 4px;
   overflow: hidden;
@@ -33,102 +34,112 @@
   outline: none;
   cursor: pointer;
   width: 100%;
-  -webkit-transition: background-position .7s,box-shadow .4s;
-  transition: background-position .7s,box-shadow .4s;
+  -webkit-transition: background-position 0.7s, box-shadow 0.4s;
+  transition: background-position 0.7s, box-shadow 0.4s;
   background-size: 110%;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
-.three:hover, .four:hover, .five:hover {
+.three:hover,
+.four:hover,
+.five:hover {
   background-position: 0% 30%;
 }
-.three:hover:after, .four:hover:after, .five:hover:after {
+.three:hover:after,
+.four:hover:after,
+.five:hover:after {
   right: -40px;
-  -webkit-transition: right .4s,-webkit-transform 30s .2s linear;
-  transition: right .4s,-webkit-transform 30s .2s linear;
-  transition: right .4s,transform 30s .2s linear;
-  transition: right .4s,transform 30s .2s linear,-webkit-transform 30s .2s linear;
+  -webkit-transition: right 0.4s, -webkit-transform 30s 0.2s linear;
+  transition: right 0.4s, -webkit-transform 30s 0.2s linear;
+  transition: right 0.4s, transform 30s 0.2s linear;
+  transition: right 0.4s, transform 30s 0.2s linear,
+    -webkit-transform 30s 0.2s linear;
 }
-.three:before, .four:before, .five:before,.three:after, .four:after, .five:after {
+.three:before,
+.four:before,
+.five:before,
+.three:after,
+.four:after,
+.five:after {
   font-family: FontAwesome;
   display: block;
   position: absolute;
 }
-.three:before, .four:before, .five:before {
+.three:before,
+.four:before,
+.five:before {
   -webkit-transition: all 1s;
   transition: all 1s;
   font-size: 20px;
   left: 50px;
   top: 10px;
 }
-.three:after, .four:after, .five:after {
-  -webkit-transition: right .4s, -webkit-transform .2s;
-  transition: right .4s, -webkit-transform .2s;
-  transition: right .4s, transform .2s;
-  transition: right .4s, transform .2s, -webkit-transform .2s;
+.three:after,
+.four:after,
+.five:after {
+  -webkit-transition: right 0.4s, -webkit-transform 0.2s;
+  transition: right 0.4s, -webkit-transform 0.2s;
+  transition: right 0.4s, transform 0.2s;
+  transition: right 0.4s, transform 0.2s, -webkit-transform 0.2s;
   font-size: 100px;
-  opacity: .3;
+  opacity: 0.3;
   right: -120px;
   top: -17px;
 }
 
-
 .three {
-  background: linear-gradient(to right, #42275a, #734b6d)
+  background: linear-gradient(to right, #42275a, #734b6d);
 }
 
 .three:hover:after {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 .three:hover:before {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
-.three:after, .three:before {
+.three:after,
+.three:before {
   content: "🛒";
 }
 
-
 .four {
-    background: linear-gradient(to right, #36d1dc, #5b86e5) 
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
 }
 
 .four:hover:after {
   -webkit-transform: rotate(3000deg);
-          transform: rotate(3000deg);
+  transform: rotate(3000deg);
 }
 .four:hover:before {
   -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  transform: rotate(360deg);
 }
-.four:after, .four:before {
+.four:after,
+.four:before {
   content: "🏷️";
 }
 
-
-.five{
-    background: linear-gradient(to right, #fc4a1a, #f7b733) 
+.five {
+  background: linear-gradient(to right, #fc4a1a, #f7b733);
 }
 
-    
 .five:hover:after {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 .five:hover:before {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
-.five:after, .five:before {
+.five:after,
+.five:before {
   content: "🌈";
 }
 
-
-
-
-.con{
-    display: flex;
-    padding: 1rem ;
-    align-items: center;
-    justify-content: flex-start;
+.con {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: flex-start;
 }
