@@ -1,4 +1,5 @@
 import React from "react";
+import Categories from "../Categories/Categories";
 import CarouselComp from "../Helpers/Carousel";
 import Navbar from "../Navbar/Navbar";
 import "./Home.css";
@@ -10,15 +11,20 @@ const Home = (props: Props) => {
     <div>
       <Navbar />
       <div className="home__caro">
-      <CarouselComp/>
+        <CarouselComp />
       </div>
-      <div className="home__bgclr">
-        {/* <div >
-          <img className="home__img"
-            src="https://img.freepik.com/free-photo/portrait-pretty-happy-girl-talking-mobile-phone_171337-2610.jpg?w=4000&t=st=1667452947~exp=1667453547~hmac=197dffbf839b3a71709b001f84ee4b8dbc2c2385e6777f1f5a6cda2581e1db7c"
-            alt="dd"
-          />
-        </div> */}
+      <div className="home__cate">
+        <div className="con">
+          <button className="three">
+            Discover New Collection
+          </button>
+          <button className="four">
+           Huge Discount for All
+          </button>
+          <button className="five">
+            Rainy Day Offers
+          </button>
+        </div>
       </div>
     </div>
   );
