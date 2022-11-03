@@ -1,9 +1,13 @@
 import React,{useState} from "react";
 import "../Auth/Auth.css";
 
+import {Link, Routes, Route, useNavigate} from 'react-router-dom';
+
 type Props = {};
 
 const Auth = () => {
+
+  const navigate = useNavigate();
 
     const [email,setEmail] = useState("")
     const [password,setPassword] = useState("")
@@ -21,6 +25,7 @@ const Auth = () => {
     const onSubmit = (e:any) => {
         e.preventDefault();
         console.log(email,password);
+        navigate("/")
     }
 
   return (
