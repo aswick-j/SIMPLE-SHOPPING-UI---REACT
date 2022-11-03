@@ -25,6 +25,7 @@ const Home = (props: Props) => {
             Rainy Day Offers
           </button>
         </div>
+        <Categories/>
       </div>
     </div>
   );
