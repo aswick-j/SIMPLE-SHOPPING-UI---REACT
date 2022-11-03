@@ -1,0 +1,23 @@
+.caro__img1{
+    background-image: url("https://img.freepik.com/premium-photo/stylish-asian-girl-shopper-wears-sunglasses-holding-shopping-bag-smartphone-going-discounts-stores-standing-white-background_1258-100753.jpg?w=4000");
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 100%;
+    height: 100%;
+}
+
+.caro__img2{
+    background-image: url("https://img.freepik.com/premium-photo/modern-korean-girl-shopping-holding-store-bag-talking-mobile-phone-smiling-standing-white-background_1258-102632.jpg?w=4000");
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 100%;
+    height: 100%;
+}
+
+.caro__img3{
+    background-image: url("https://img.freepik.com/free-photo/image-stylish-asian-girl-shopper-holding-smartphone-shopping-bag-without-store-logo-wearing-medical-face-mask-from-covid19-white-background_1258-99219.jpg?w=4000&t=st=1667457498~exp=1667458098~hmac=027a1d0e2a0aa7dcd3c3a8eb668d7900157d71aead864761745b6ca5f015697b");
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 100%;
+    height: 100%;
+}

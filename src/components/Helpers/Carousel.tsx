@@ -8,7 +8,7 @@ type Props = {}
 const CarouselComp = () => {
   return (
     <div style={{top:"17rem",width:"80%",height:"90%",left:"-9rem"}}>
-    <Carousel cols={1} rows={1} gap={10} loop>
+    <Carousel cols={1} rows={1} gap={10} loop showDots={true} autoplay={1000}>
       <Carousel.Item>
         <img width="100%" src="https://img.freepik.com/premium-photo/modern-korean-girl-shopping-holding-store-bag-talking-mobile-phone-smiling-standing-white-background_1258-102632.jpg?w=4000" />
       </Carousel.Item>
