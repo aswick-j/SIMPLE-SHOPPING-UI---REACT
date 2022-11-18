@@ -18,7 +18,6 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-![wave-haikei](https://user-images.githubusercontent.com/70281784/202695337-2d99670f-7407-47d6-93e1-0e5dbd36b20f.png)
 
 ### `yarn build`
 
