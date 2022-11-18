@@ -2,8 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/70281784/202696801-adc77b64-4973-4370-b040-09ac5ff7decf.png)
 
-![image](https://user-images.githubusercontent.com/70281784/202696971-bd85f0b6-65eb-47d0-a2f0-f4132a031dcd.png)
-
+![image](https://user-images.githubusercontent.com/70281784/202697045-f76ba035-ce03-4678-8260-e3c04868bdd2.png)
 
 # Getting Started with Create React App
 
